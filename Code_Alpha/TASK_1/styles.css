@@ -1,0 +1,109 @@
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40vh;
+    background-color: rgb(177, 170, 170);
+  }
+  
+  .hero-content {
+    flex: 5;
+    text-align: left;
+  }
+  
+  .hero-image {
+    flex: 4;
+    text-align: right;
+    
+  }
+  
+  .hero-image img {
+    width: 28%;
+    height: auto;
+    border-radius: 20%;
+  }* 
+{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: rgb(158, 155, 155);
+    color:black;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+#skills {
+    padding: 50px;
+}
+
+#skills .skill-item {
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+#contact {
+    background: linear-gradient(to bottom right,#4d4c4c, #b2afaf);
+    color: rgb(233, 230, 230);
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  #contact h2 {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  #contact ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  #contact li {
+    margin: 10px;
+  }
+  
+  #contact a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  #contact a:hover {
+    text-decoration: underline;
+  }
+#projects {
+    padding: 50px
+}
